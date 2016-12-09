@@ -1,0 +1,66 @@
+body{
+	background: url(../images/onepieceBG.jpg);
+	background-size: auto; 
+    font-family: "Raleway", sans-serif;
+    background-repeat: repeat-y;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    color: #fff;  
+}
+
+img {
+    margin-top: 50px;
+}
+
+#label-one a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.pic-menu {
+    padding: 0 0 0 0;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    line-height: 32px;
+    background-color: #B8860B;
+    opacity: 0.7;
+}
+
+.pic-menu li {
+    padding: 15px 0 15px 0;
+    font-size: 18px;
+    display: block;
+}
+
+.pic-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-variant: small-caps;
+}
+
+.pic-menu a:hover {
+    color: #B8860B;
+    background-color: #fff; 
+    box-shadow: 10px 10px 5px #161515;
+}
+
+.container {
+    color: white;
+    background-color: #B8860B; 
+    max-width: 960px;
+    max-height: 220px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    opacity: 0.7;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
