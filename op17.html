@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>MangaPanga</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/bodyStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+</head>
+    
+<body oncontextmenu="return false;">
+    <div id="wrapper">	                       
+        <header>
+            <label id="label-one">
+                <br /><br />
+                <a href="index.html">MangaPanga</a>
+            </label>
+        </header>
+        <nav>   
+            <ul class="main_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="one_piece.html">One Piece</a></li>
+                <li><a href="fairy_tail.html">Fairy Tail</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>            
+        </nav>
+    </div>
+    
+    <div>
+        <a href="op18.html">
+        <img src="images/one_piece/849/17.png" />
+        </a>           
+    </div>
+        
+    <script type="text/javascript">
+        var browser = navigator.appName;
+        if (browser == "Microsoft Internet Explorer") {
+            document.onkeydown=keydownie;
+        } else {
+            document.onkeydown=keydown;
+        }
+
+        function keydownie(e) {
+            if (!e) var e = window.event;
+            if (e.keyCode) {
+                keycode = e.keyCode;
+                if ((keycode == 39) || (keycode == 37)) {
+                    window.event.keyCode = 0;
+                }
+            } else {
+                keycode = e.which;
+            }
+            if (keycode == 37) {
+                window.location = 'op16.html';                return false;
+            } else if (keycode == 39){
+                var next = 'op18.html';
+                if (next.indexOf('///') === -1) {
+                    window.location = next;
+                }
+                return false;
+            }
+        }
+        
+        function keydown(e) {
+            if (e.which) {
+                keycode = e.which;
+            } else {
+                keycode = e.keyCode;
+            }
+            if (keycode == 37) {
+                window.location = 'op16.html';                return false;
+            } else if (keycode == 39) {
+                var next = 'op18.html';
+                if (next.indexOf('///') === -1) {
+                    window.location = next;
+                }
+                return false;
+            }
+        }    
+    </script>
+    
+    <footer>
+        
+        Copyright © plurnee™
+    </footer>   
+</body>
+</html>
